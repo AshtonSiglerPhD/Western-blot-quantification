@@ -1,2 +1,2 @@
 # Western-blot-quantification
-Old Java application to quantify Western blot data
+I initially wrote this code to overcome a limitation with BioRad's quantification software. At the time, I needed the ability to get relative quantifications between Western blot lanes without the use of a loading control (i.e. lane 1 vs. lane 2 vs. lane 3...). The densitometry analysis available, however, did not allow this and required a loading control. I wrote this program to take in a jpeg of a grayscale Western blot and allow the user to draw regions of interest that would then be adjusted for background and could be exported.
